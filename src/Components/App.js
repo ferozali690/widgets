@@ -1,6 +1,6 @@
 import React from "react";
 import Accordian from "./Accordian";
-import "./App.css";
+
 import SearchComponent from "./SearchComponent";
 
 const items = [
@@ -22,8 +22,8 @@ const App = () => {
   return (
     <React.Fragment>
       <h1>App</h1>
-      {/*<Accordian items={items} />*/}
-      <SearchComponent />
+      {<Accordian items={items} />}
+      {/*<SearchComponent />*/}
     </React.Fragment>
   );
 };
